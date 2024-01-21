@@ -3,9 +3,25 @@ import LocalizedStrings from 'react-localization';
 
 let Disneystrings = new LocalizedStrings({
     en:{
-      how:"Example",
+      menu:{
+        home:"HOME",
+        search:"SEARCH",
+        watchls:'WATCH LIST',
+        org:"ORIGINALS",
+        mv:"MOVIES",
+        series:"SERIES",
+      }
     },
     it: {
-      how:"Come vuoi il tuo uovo oggi?",
+      menu:{
+        home:"ss",
+        search:"SEARCH",
+        watchls:'WATCH LIST',
+        org:"ORIGINALS",
+        mv:"MOVIES",
+        series:"SERIES",
+      }
     }
    });
+
+   export default Disneystrings;
