@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Components/Header'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Slider from './Components/Slider'
+import ProductioHouse from './Components/ProductioHouse'
 function App() {
   return (
     <div className='App'>
@@ -15,6 +16,7 @@ function App() {
       </Router> */}
       <Header/>
       <Slider/>
+      <ProductioHouse/>
     </div>
   )
 }
